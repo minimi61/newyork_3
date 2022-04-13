@@ -1,3 +1,6 @@
+.input{
+    margin-top: 10px;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -11,6 +14,9 @@
     background: none;
     border: none;
     padding: 1em;
+}
+.menus-buttons button:hover{
+    background-color: antiquewhite;
 }
 .menus-buttons{
     border-bottom: 4px lightgray solid;
@@ -29,4 +35,14 @@
 }
 .article-text{
     margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
